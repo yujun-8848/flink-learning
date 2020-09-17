@@ -20,4 +20,10 @@ public class AlertRule {
     private String name;
     private String measurement;
     private String thresholds;
+
+    public static void main(String[] args) {
+        AlertRule alertRule = new AlertRule(5, "", "", "");
+        AlertRule alertRule1 = new AlertRule();
+
+    }
 }
